@@ -37,7 +37,9 @@ Django’s ORM to handle database interactions on server side.
 
 (Brief Interaction Explanation: React communicates with Django through API requests so that when a user inputs information i.e. login details. Django will query the database before sending a JWT to React. This will include whether the information of the user is correct and can be used to retrieve the user’s tasks.)
 
-## Password Hashing: Django’s built-in password hasher.
+## Password Hashing: 
+Django’s built-in password hasher.
+
 To use: from django.contrib.auth.hashers import make_password
 This means when a user is creating a password, before it is saved on the database, it is hashed.
 
