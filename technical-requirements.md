@@ -47,8 +47,12 @@ To use: from django.contrib.auth import authenticate
 When logging in again, the authentication function will be used to check if this password matches a stored hashed password.
 Version Control: GitHub which can be used with Heroku when deploying PyTasks
 
+## Packages to Consider
 
-
+- Django REST Framework Simple JWT: to use JWT with the built in Django authentication 
+- Axios: to send requests to Django’s API to create, read, update, or delete data, Axios can simplify these calls. 
+- CORS: what gives permission to JavaScript in the browser to make certain requests.  
+        Also to allow React to be able to get the response from Django Backend   
 
 
 
