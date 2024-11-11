@@ -1,13 +1,13 @@
 # Project Overview:
 We need a Python-based web application, PyTasks, that will allow users to manage their daily tasks efficiently. The application should allow users to create, edit, delete, and track tasks. The solution should be simple yet robust, focusing on functionality, performance, and clean code practices.
 
-# Project Goals
+## Project Goals
 • Build a full-stack web application using Python.
 • Provide a user-friendly interface for task management.
 • Ensure efficient back-end handling with a secure user authentication system.
 • Write clean, maintainable code that adheres to Pythonic principles.
 
-# Project Requirements
+## Project Requirements
 
 Key Features:
 1.User Authentication:
@@ -28,7 +28,7 @@ o Display notifications (e.g., a message when a task is marked complete).
 4. Responsiveness:
 o Ensure that the web app works well on mobile and desktop devices.
 
-#Technical Requirements:
+## Technical Requirements:
 
 Front-end:
 o Use HTML5, CSS3, and JavaScript for the front-end.
@@ -56,7 +56,7 @@ Version Control:
 o Use Git for version control.
 o Set up a GitHub repository for tracking progress, with meaningful commits and proper branch management.
 
-# Non-Functional Requirements:
+## Non-Functional Requirements:
 
 Performance: optimise page load times by minimizing the number of requests and handling large datasets efficiently.
 
@@ -69,7 +69,7 @@ Testing: write unit tests to ensure the integrity of key components, especially 
          
 Target Audience: the app is designed for individuals, freelancers, and small teams who need a simple tool to manage tasks and increase productivity.
 
-# Design Requirements:
+## Design Requirements:
 
 Minimalist and Clean Design:
 o The interface should be simple and functional, focusing on usability.
@@ -94,7 +94,7 @@ Project Timeline:
 •	Phase 5: Deployment (0.5 week)
     Deploy the app using a service like Heroku, PythonAnywhere, or AWS.
 
-# Deliverables:
+## Deliverables:
 •	A fully functioning task management web application deployed online.
 •	A GitHub repository with a well-documented README explaining setup instructions and usage.
 •	API documentation for future development or third-party integrations.
