@@ -88,3 +88,70 @@ input,
 textarea {
   width: 100%;
 }
+
+.task-list {
+  margin: 20px auto;
+  padding: 0;
+  width: 80%;
+  max-width: 600px;
+  text-align: left;
+}
+
+.task-item {
+  background-color: #f9f9f9;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-item h3 {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+}
+
+.task-item p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.task-item p strong {
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: white;
+  color: #21a1f1;
+  border: 2px solid #21a1f1;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+button:hover {
+  background-color: #b3b7ba;
+  border-color: #117bb5;
+}
+
+.modal-content {
+  width: 80%;
+  max-width: 500px;
+}
+
+@media (max-width: 768px) {
+  .task-item {
+    font-size: 12px;
+  }
+
+  .modal-content {
+    width: 90%;
+  }
+
+  button {
+    font-size: 12px;
+  }
+}
