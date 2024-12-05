@@ -14,20 +14,20 @@ function App() {
 
   // Function for form submission handling
   const handleFormSubmit = (e) => {
-    e.preventDefault(); // Prevent page reload
+    e.preventDefault();
 
     // Collect data inputted by the user
-    const taskName = e.target.taskName.value.trim();
+    const taskName = e.target.taskName.value.trim(); // Trim any blank space
     const taskDescription = e.target.taskDescription.value.trim();
     const taskDueDate = e.target.taskDueDate.value;
 
-    // Ensure user has inputted all parts
+    // User must input all fields
     if (!taskName || !taskDescription || !taskDueDate) {
       alert("All fields are required");
       return;
     }
 
-    // Create a task object (this is the payload)
+    // Create a task object - payload
     const newTask = {
       id: Date.now(), // Object ID named by the current time
       name: taskName,
