@@ -12,6 +12,10 @@ function App() {
   // Store tasks as an array of JSON objects
   const [tasks, setTasks] = useState([]);
 
+
+
+
+
   // Function for form submission handling
   const handleFormSubmit = (e) => {
     e.preventDefault();
@@ -98,4 +102,5 @@ function App() {
 
 export default App;
 
+packet.results[0].films[0]
 
