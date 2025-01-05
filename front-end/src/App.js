@@ -109,7 +109,7 @@ function App() {
     }
   };
 
-  // App Function will return this - what user will see on the screen
+  // App Function will return this and render PyTask's UI 
   return (
     <div className="App">
       <h1>PyTasks</h1>
@@ -125,7 +125,7 @@ function App() {
               type="text"
               id="taskName"
               name="taskName"
-              defaultValue={editingTask ? editingTask.name : ""} // If editing a task this is prefilled.
+              defaultValue={editingTask ? editingTask.name : ""} // if editing a task this is prefilled.
               required
             />
 
