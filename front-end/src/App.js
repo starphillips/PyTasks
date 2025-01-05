@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import './App.css';
 
+// Separate commit to highlight to users that my App.js was updated a few commits ago when changing the git ignore. I did not separate.
+
 // Function to sort tasks by date
 const sortTasksByDueDate = (tasks) => {
   return tasks.slice().sort((a, b) => new Date(a.dueDate) - new Date(b.dueDate));
