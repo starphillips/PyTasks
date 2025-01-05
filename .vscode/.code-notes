@@ -1,0 +1,68 @@
+{
+  "c:\\Users\\phill\\PyTasks\\front-end\\src\\App.js": {
+    "version": 1262,
+    "fileHash": "5db9bf7ea13be7208d2c2e6bb57e5913",
+    "notes": [
+      {
+        "id": "64eb4ad0-0303-4b30-9a1a-667e061b6f54",
+        "startLine": 4,
+        "startCharacter": 0,
+        "endLine": 6,
+        "endCharacter": 2,
+        "content": "Sort Tasks by Due Date Function:\n\nconst - once the function is defined, it cannot be reassigned.\n\n=> - arrow function syntax in JavaScript, and it is used to define arrow functions, which are a shorter and more concise way of writing functions compared to traditional function expressions.\n\nThis function takes all the tasks we are working with (tasks) and returns the following.\n\ntasks.slice() - used as we do not want to mutate the original task list (with directly using task.sort()) as this may affect the code. \n\nIt will then sort the code by a and b, iterating through the list, where a and b represent two elements of the array being compared at each step of the sorting process.\n\nThey will compare due dates. If negative b will appear before, if positive a will appear before. \n\n",
+        "createdAt": "2024-12-31T08:33:35.924Z",
+        "updatedAt": "2024-12-31T08:33:35.924Z"
+      },
+      {
+        "id": "16afe846-321f-4a4c-b729-d3df3904299a",
+        "startLine": 8,
+        "startCharacter": 0,
+        "endLine": 8,
+        "endCharacter": 16,
+        "content": "App Function\n\nApp function to serve as the main component of the application.\n\n",
+        "createdAt": "2024-12-31T09:57:22.792Z",
+        "updatedAt": "2024-12-31T09:57:22.792Z"
+      },
+      {
+        "id": "050af32e-cb5d-44ce-86f6-b04b690d781b",
+        "startLine": 9,
+        "startCharacter": 0,
+        "endLine": 11,
+        "endCharacter": 55,
+        "content": "State Initialisation:\n\nThe following state variables are defined using the useState hook.\n\ntasks: Holds the list of active tasks.\ncompletedTasks: Holds the list of completed tasks.\neditingTask: Tracks the task that is currently being edited. - A state variable that holds the task being edited, or null if no task is being edited.\n\n\nHow it works:\n\nconst [tasks, setTasks] = useState([]);\n\nconst - so it won't change\n([]) - starts off as an empty array, as there are no tasks when the app starts\n1st element shows that it holds the lists of active tasks, 2nd element setTasks will be used to update the list.\n \n\n",
+        "createdAt": "2024-12-31T09:58:26.398Z",
+        "updatedAt": "2024-12-31T09:58:26.398Z"
+      },
+      {
+        "id": "0d47748e-bfed-4e24-90d7-59fc75e3e5a1",
+        "startLine": 42,
+        "startCharacter": 2,
+        "endLine": 43,
+        "endCharacter": 23,
+        "content": "Function for Form Submission:\n\n(e) - synthetic event provided by React that wraps the native DOM event and ensures compatibility across browsers.\n\nPrevents the default behavior of the form submission, which is to reload the page.\n\n\n\nThe event object (e) in your code represents the onSubmit event triggered by the form submission.\n\nYou use the event object to:\nPrevent the default page reload (e.preventDefault()).\nAccess the form's input values via e.target.\nHandle user inputs dynamically without relying on a page reload.\n\n",
+        "createdAt": "2025-01-05T07:15:45.109Z",
+        "updatedAt": "2025-01-05T07:15:45.109Z"
+      },
+      {
+        "id": "e0336d1c-3ebe-4abc-9890-6f59c36cf47a",
+        "startLine": 76,
+        "startCharacter": 4,
+        "endLine": 80,
+        "endCharacter": 4,
+        "content": "Resetting From When Editting is Done.\n\nUses .reset to clear the form\n\nsetEdittingTask to null as we do not need to know what is being editted if it is already done\n\nFinds the modal and hides it as it is no longer needed when editting is complete. ",
+        "createdAt": "2025-01-05T07:46:50.521Z",
+        "updatedAt": "2025-01-05T07:46:50.521Z"
+      },
+      {
+        "id": "7fe950b9-d449-4b9b-add5-b5bb0b1a1d58",
+        "startLine": 98,
+        "startCharacter": 6,
+        "endLine": 98,
+        "endCharacter": 74,
+        "content": "Function to Delete Task:\n\n\nUpdates state to setTasks, where it takes the current list (prevTasks)\nUses filter to create a new array of tasks \n",
+        "createdAt": "2025-01-05T07:58:32.730Z",
+        "updatedAt": "2025-01-05T07:58:32.730Z"
+      }
+    ]
+  }
+}

@@ -90,7 +90,8 @@ textarea {
   width: 100%;
 }
 
-.task-list {
+.task-list,
+.completed-task-list {
   margin: 20px auto;
   padding: 0;
   width: 80%;
